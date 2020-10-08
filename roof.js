@@ -17,9 +17,10 @@ class roof
 	{
 			
 			var groundPos=this.body.position;		
-
+		
 			push()
 			translate(groundPos.x, groundPos.y);
+			
 			rectMode(CENTER)
 			//strokeWeight(4);
 			fill(128,128,128)

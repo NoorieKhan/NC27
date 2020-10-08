@@ -18,9 +18,9 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	roofObject=new roof(width/2,height/4,width/7,20);
+	roofObject=new roof(width/2,height/4,width/5,20);
 
-	bobDiameter=40;
+	bobDiameter=60;
 
 	startBobPositionX=width/2;
 	startBobPositionY=height/4+500;
